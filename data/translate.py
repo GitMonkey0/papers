@@ -14,7 +14,7 @@ def translate_summary_batch(texts):
     try:
         return ai.batch_process(
             texts,
-            system_prompt="请将以下英文论文摘要准确翻译成中文",
+            system_prompt="请将以下英文论文摘要准确翻译成中文，不要引入额外说明。",
             max_workers=8
         )
     except Exception as e:
