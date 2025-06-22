@@ -1,0 +1,7 @@
+body { font-family: sans-serif; margin: 20px; }
+h1 { color: #333; }
+#search { width: 100%; padding: 8px; margin-bottom: 16px; font-size: 1em; }
+#paper-list li { margin-bottom: 25px; padding: 12px; border-bottom: 1px solid #ccc; }
+#paper-list li a { font-size: 1.15em; text-decoration: none; color: #0066cc; }
+#paper-list li em { color: #888; font-size: 0.9em; }
+#paper-list li p { margin: 8px 0; line-height: 1.5; }
